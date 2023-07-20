@@ -1,0 +1,50 @@
+.latest-match-details-container {
+  background-color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.team-details-image-container {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.competing-team-details-text {
+  margin: 30px;
+}
+
+.date {
+  font-size: 25px;
+}
+
+.competing-team {
+  height: 120px;
+}
+
+.p-text {
+  font-size: 22px;
+}
+
+.match-inning-details-container {
+  text-align: right;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-details-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .competing-team {
+    height: 220px;
+  }
+}

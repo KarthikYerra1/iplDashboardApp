@@ -1,0 +1,80 @@
+.team-matches-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.match-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+.match-banner-img {
+  height: 50vh;
+  width: 100%;
+}
+
+.match-card-list-details-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-details-container {
+    width: 80%;
+  }
+
+  .match-card-list-details-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.latest-matches-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Bree Serif';
+}
+
+.latest-match-heading {
+  color: #fffff3;
+  font-size: 20px;
+}
+
+.rcb {
+  background-color: #a4261d;
+}
+
+.kkr {
+  background-color: #5755a7;
+}
+
+.kxp {
+  background-color: #d91c1f;
+}
+
+.csk {
+  background-color: #f7db00;
+}
+
+.rr {
+  background-color: #da237b;
+}
+
+.mi {
+  background-color: #13418b;
+}
+
+.sh {
+  background-color: #f26d22;
+}
+
+.dc {
+  background-color: #4f5db0;
+}
